@@ -1,1 +1,10 @@
 # Collaboration-in-Technology-Space
+
+The relevant code to re-produce the results included in my master's thesis.
+
+There are four relevant note books which accomplish different stages. They are designed to be run in this order, some sections take a long time. Those sections include an measure for the length of time it took to run on my system. 
+
+  1) DataMerging : Builds the full dataset by merging the USPTO patent data which can be found here https://patentsview.org/download/data-download-tables
+  2) ProdtoTechSpace : This produces the measure between technology spaces from the product space presented here https://dataverse.harvard.edu/dataverse/atlas and then uses the concordance presented here : https://sites.google.com/site/nikolaszolas/PatentCrosswalk
+  3) InventorDistances : This first builds the inventor skill vectors of all active inventors of the period 2003-2018. Then it measures the team proximity using the methods outlined in the paper. It presents various results and merges the data to be used in the empirical analysis
+  4) CollaborationNetwork : This presents the argument that local search can explain an increase in team proximity by building the existing collaboration network and measuring proximity across this network.
